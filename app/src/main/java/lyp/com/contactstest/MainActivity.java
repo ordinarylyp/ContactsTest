@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 if (grantResults.length>0 && grantResults[0]==PackageManager.PERMISSION_GRANTED){
                     readContacts();
                 }else {
-                    Toast.makeText(this,"拒绝了授权",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this,"你拒绝了授权",Toast.LENGTH_SHORT).show();
                 }
                 break;
 
